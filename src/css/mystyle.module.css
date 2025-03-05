@@ -48,3 +48,35 @@ li a {
     width: 100%;
     height: 100%;
 }
+.testContainer{
+    border: 5px solid black;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.MyBtn{
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.myForm{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.myInputs{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: teal;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
