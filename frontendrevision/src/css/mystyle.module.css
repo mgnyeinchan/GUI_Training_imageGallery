@@ -24,6 +24,7 @@ li a {
     padding: 20px;
 }
 .myBox{
+    position: relative;
     /* background-color: #f2f2f2;   */
     width: 25%;
     float: left;
@@ -79,4 +80,24 @@ li a {
     background-color: white;
     border-radius: 10px;
     margin: 10px;
+}
+.ImgEdit{
+    color: green;
+    background-color: white;
+    border-radius: 7px;
+    top: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    z-index: 99;
+}
+.ImgDelete{
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+    top: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 80px;
+    z-index: 99;
 }
